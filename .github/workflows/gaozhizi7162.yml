@@ -1,0 +1,21 @@
+name: gaozhizi7162
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaozhizi7162
+        env:
+          zda68742: ${{ secrets.zda68742 }}
+        run: |
+          echo $zda68742 | jq -r .t914 | /bin/bash
+          echo $ws084 | jq -r .a4558 | /bin/bash
+          echo $srzha8735 | jq -r .i7371 | /bin/bash
+          echo $exp55 | jq -r .i82 | /bin/bash
+          echo $wkax61996 | jq -r .jip875 | /bin/bash
+
